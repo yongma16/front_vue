@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { reactive } from "vue";
 const state = reactive({
-  title: "page-a 页面",
+  title: "page-b 页面",
 });
 </script>
 <template>
