@@ -9,6 +9,7 @@ export default {
     // redirect: '/Layout/demo',
     meta: {
         orderNo: 1,
+        key: '1',
         icon: 'ion:grid-outline',
         title: 'vue3平台',
     },
@@ -22,6 +23,28 @@ export default {
                 // affix: true,
                 icon: 'ion:grid-outline',
                 title: 'demo',
+            },
+        },
+        {
+            path: 'page-a',
+            name: 'page-a',
+            // @ts-ignore
+            component: () => import('@/views/page-a/index.vue'),
+            meta: {
+                // affix: true,
+                icon: 'ion:grid-outline',
+                title: 'page-a',
+            },
+        },
+        {
+            path: 'page-b',
+            name: 'page-b',
+            // @ts-ignore
+            component: () => import('@/views/page-b/index.vue'),
+            meta: {
+                // affix: true,
+                icon: 'ion:grid-outline',
+                title: 'page-b',
             },
         },
     ],
