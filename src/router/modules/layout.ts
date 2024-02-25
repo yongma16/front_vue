@@ -17,11 +17,11 @@ export default {
             path: 'demo',
             name: 'demo',
             // @ts-ignore
-            component: () => import('@/views/demo/index.vue'),
+            component: () => import('@/views/demo/demo.vue'),
             meta: {
                 // affix: true,
                 icon: 'ion:grid-outline',
-                title:'demo',
+                title: 'demo',
             },
         },
     ],
